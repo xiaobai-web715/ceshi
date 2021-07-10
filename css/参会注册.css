@@ -1,0 +1,57 @@
+@import'参会注册表reset.css';
+.wripper{
+    margin-top:150px;
+    text-align:center;
+}
+
+table{
+    border:1px solid black;
+    width:550px;
+}
+
+td{
+    border:1px solid black;
+    height:25px;
+    /* width:248px; */
+    line-height:25px;
+}
+
+td input{
+    outline:none;
+    margin-left:5px;
+}
+
+td input.first{
+    vertical-align: 2px;
+    width:100px;
+}
+
+td input.second{
+    vertical-align: 2px;
+    width:175px;
+}
+
+td input.third{
+    vertical-align: 2px;
+    width:100px;
+}
+
+td input.fourth{
+    vertical-align: 2px;
+    width:50px;
+}
+
+td input.circle{
+    vertical-align:-1px;
+}
+
+td.btn{
+    text-align:center;
+    font-size:0;
+}
+
+td.btn button{
+    margin:0 10px;
+    vertical-align:-5px;
+    font-weight: bold;
+}

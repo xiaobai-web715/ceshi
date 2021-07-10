@@ -1,0 +1,50 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>参会注册表</title>
+        <link rel="stylesheet" href="./css/参会注册.css">
+    </head>
+    <body>
+        <div class="wripper">
+            <h3>参会注册表</h3>
+            <div class="content">
+                <form action="">
+                    <table>
+                        <tr>
+                            <td>姓名:<input type="text" class="first" id="username"></td>
+                            <td>单位:<input type="text" class="second" id="unit"></td>
+                        </tr>
+                        <tr>
+                            <td>性别:
+                                <input type="radio" name="性别" value="男" class="circle">男
+                                <input type="radio" name="性别" value="女" class="circle">女
+                            </td>
+                            <td>手机:<input type="text" class="third" id="phone"></td>
+                        </tr>
+                        <tr>
+                            <td>酒店:
+                                <input type="radio" name="酒店" value="天山大酒店" class="circle">天山大酒店
+                                <input type="radio" name="酒店" value="昆伦饭店" class="circle">昆伦饭店
+                            </td>
+                            <td>预定房间数:<input type="text" class="fourth" id="houseNumber">套</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">房间类型:
+                                <input type="radio" name="房间类型" value="单人间(320元)" class="circle">单人间(320元)
+                                <input type="radio" name="房间类型" value="标准双人间(380元)" class="circle">标准双人间(380元)
+                                <input type="radio" name="房间类型" value="家庭套间(450元)" class="circle">家庭套间(450元)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="btn">
+                                <button type="button" onclick="finish()">提交</button>
+                                <button type="reset">重置</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </body>
+    <script src="./参会注册.js"></script>
+</html>
