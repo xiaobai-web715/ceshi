@@ -1,0 +1,39 @@
+@import'./4个高校reset.css';
+.wripper{
+    width : 1000px;
+    margin: 0 auto;
+    margin-top:200px;
+    text-align:center;
+}
+
+h1{
+    margin-bottom:10px;
+    color:red;
+}
+
+ul{
+    /* overflow:hidden; */
+    text-align:center;
+    font-size:0;
+}
+
+ul li{
+    display:inline-block;
+    font-size:15px;
+    margin:0 15px;
+    border:2px solid black;
+}
+
+
+a{
+    display:block;
+    height:200px;
+    width:200px;
+}
+
+a img{
+    width:200px;
+    height:200px;
+}
+
+
